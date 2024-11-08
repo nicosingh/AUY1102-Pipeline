@@ -176,7 +176,7 @@ Contributions are welcome! See [Contributor's Guide](./docs/contributors.md)
 
 ## How to configure the Development environment
 
-TODO
+TODO will include instructions in here
 
 ## Code of Conduct
 
