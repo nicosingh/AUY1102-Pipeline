@@ -178,6 +178,8 @@ Contributions are welcome! See [Contributor's Guide](./docs/contributors.md)
 
 TODO will include instructions in here
 
+More changes to be added
+
 ## Code of Conduct
 
 👋 Be nice. See our [code of conduct](./docs/code_of_conduct.md)
