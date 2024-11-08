@@ -174,6 +174,10 @@ The scripts and documentation in this project are released under the [MIT Licens
 
 Contributions are welcome! See [Contributor's Guide](./docs/contributors.md)
 
+## How to configure the Development environment
+
+TODO will include instructions in here
+
 ## Code of Conduct
 
 👋 Be nice. See our [code of conduct](./docs/code_of_conduct.md)
