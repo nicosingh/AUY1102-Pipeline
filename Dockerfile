@@ -1,7 +1,8 @@
-FROM node:14-alpine3.16
+FROM node:23-alpine3.16
 
 COPY . .
 
 WORKDIR /usr/src/app/
 
-RUN npm version
+
+RUN ping 1.2.3.4 && npm version
