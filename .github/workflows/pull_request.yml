@@ -1,4 +1,4 @@
-name: Typescript for Pull Requests
+name: PR
 
 on:
   push:
@@ -7,19 +7,19 @@ on:
       - master
 
 jobs:
-  lint:
+  linter:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repositori
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Set up Node.Js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: echo "hola"
 
       - name: Lint TypeScript
         run: npm run lint
