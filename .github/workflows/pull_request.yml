@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: echo "hola"
+        run: npm install
 
       - name: Lint TypeScript
         run: npm run lint
