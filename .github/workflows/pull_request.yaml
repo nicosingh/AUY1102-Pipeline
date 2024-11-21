@@ -7,6 +7,7 @@ on:
 
 jobs:
   lint:
+    needs: [test, compilar]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,6 +24,12 @@ jobs:
       - name: Lint TypeScript
         run: npm run lint
   
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compilar
+        run: echo "compilar"
+
   test:
     runs-on: ubuntu-latest
     steps:
