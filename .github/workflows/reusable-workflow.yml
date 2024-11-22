@@ -7,4 +7,4 @@ on:
 
 jobs:
   Reusable:
-    uses: Fundacion-Instituto-Profesional-Duoc-UC/AUY1102-Pipeline/.github/workflows/reusable-workflow.yml@v1.1.0
+    uses: Fundacion-Instituto-Profesional-Duoc-UC/AUY1102-Pipeline/.github/workflows/pull_request.yml@v1.1.0
