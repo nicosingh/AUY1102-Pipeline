@@ -7,4 +7,4 @@ on:
 
 jobs:
   Reusable:
-    uses: nicosingh/AUY1102-Pipeline/.github/workflows/pull_request.yml@create-pr-workflow
+    uses: nicosingh/AUY1102-Pipeline/.github/workflows/pull_request.yaml@create-pr-workflow
